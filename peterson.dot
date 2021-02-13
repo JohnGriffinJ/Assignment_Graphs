@@ -1,0 +1,18 @@
+graph 
+{ 
+	node [shape = "circle"]	
+	a [ pos = "0,4!"];
+	b [ pos = "-3,2!"];
+	c [ pos = "-1,0!"];
+	d [ pos = "1,0!"];
+	e [ pos = "3,2!"];
+
+	a -- b -- c -- d -- e -- a;
+	f -- g -- h -- i -- j -- f;
+	a -- f;
+	b -- i;
+	c -- g;
+	d -- j;
+	e -- h;
+	
+}
